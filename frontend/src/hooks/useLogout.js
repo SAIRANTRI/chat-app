@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useAuthContext } from "../context/useAuthContext";
+import { useAuthContext } from "../context/AuthContext";
 
 const useLogout = () => {
   const [loading, setLoading] = useState(false);
